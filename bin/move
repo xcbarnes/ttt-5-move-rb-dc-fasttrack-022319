@@ -8,7 +8,6 @@ require_relative '../lib/move.rb'
 # initialize
 board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 
-
 puts "Welcome to Tic Tac Toe!"
 
 # Greet the user
