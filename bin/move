@@ -6,13 +6,14 @@ require_relative '../lib/move.rb'
 
 puts "Welcome to Tic Tac Toe!"
 
+# Do the setup
 initialize
 
+# Greet the user
 puts "Where would you like to go?"
 
+# Get & apply the move
 input = gets.strip
-index = input_to_index 
-
+index = input_to_index(input)
 move(board,index,"X")
-
 display_board
