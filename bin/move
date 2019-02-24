@@ -7,7 +7,8 @@ require_relative '../lib/move.rb'
 puts "Welcome to Tic Tac Toe!"
 
 # Do the setup
-initialize
+# initialize
+board = ["","","", "","","", "","",""]
 
 # Greet the user
 puts "Where would you like to go?"
